@@ -1,0 +1,111 @@
+.textbox-email {
+  cursor: text;
+  margin-bottom: 7px;
+  margin-right: 0px;
+  display: inline-block;
+  height: 80px;
+  width: 480px;
+  font-size: 18px;
+  border-radius: 12px;
+  border-style: solid;
+  box-shadow: 1px 1px 5px grey; 
+  border-color: grey;
+  border-width: 2px;
+  color: grey;
+  background-color: white;
+  
+   
+}
+.textbox-email::placeholder {
+  color: grey;
+  font-family: Arial;
+  position: relative;
+  right: -15px;
+  
+  
+}
+
+.textbox-password {
+  cursor: text;
+  display: inline-block;
+  height: 80px;
+  width: 480px;
+  font-size: 18px;
+  border-radius: 12px;
+  box-shadow: 1px 1px 5px grey; 
+  border-style: solid;
+  border-color: grey;
+  border-width: 2px;
+  color: grey;
+  background-color: white;
+}
+
+.textbox-password::placeholder {
+  color: grey;
+  font-family: Arial;
+  position: relative;
+  right: -15px;
+}
+
+.textbox-password:focus {
+  outline: none;
+}
+.textbox-email:focus {
+  outline: none;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  box-shadow: 1px 1px 5px grey; 
+  font-family: Arial, Helvetica, sans-serif;
+  height: 80px;
+  width: 490px;
+  margin-top: 13px;
+  font-size: 20px;
+  border-style: solid;
+  border-color: navy;
+  background-color: rgb(0, 157, 255);
+  border-radius: 15px
+
+  
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+  
+}
+
+.sign-up-form {
+  display: inline-block;
+  margin: 10px;
+  
+}
+
+#loginTitle {
+
+  font-family: Impact, fantasy;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-size: 40px;
+}
+
+.Login {
+ position: relative;
+ top: 200px;
+ right: -670px;
+ display: inline-block;
+
+ 
+}
+
+form {
+
+  display: inline-block;
+}
+
+body {
+  background-color: lightblue;
+}

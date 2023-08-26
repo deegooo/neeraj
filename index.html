@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="Login">
+        <h2 id="loginTitle">Login</h2> <br>
+        <form>
+            
+            
+            <input type="text" id="username" name="username" required class="textbox-email" placeholder="username"><br><br>
+            
+            
+            <input type="password" id="password" name="password" required class="textbox-password" placeholder="password"><br><br>
+            
+            <input type="button" value="Login" onclick="validateCredentials()" class="button">
+            
+        </form>
+    </div>
+
+    <script>
+        function validateCredentials() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+    
+            var users = {
+                "neeraj": "neeraj831383",
+                "user2": "password2"
+            
+            };
+
+            if (users.hasOwnProperty(username) && users[username] === password) {
+                window.location.href = "index1.html";
+            } else {
+                alert("Invalid credentials. Please try again.");
+            }
+        }
+
+        
+
+    </script>
+</body>
+</html>
